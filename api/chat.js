@@ -151,7 +151,7 @@ export default async function handler(req, res) {
     const apiParams = {
       model: 'llama3-70b-8192',
       messages: messages,
-      max_tokens: isComplexQuery ? 120 : 60, // Plus court pour éviter les réponses AI-like
+      max_tokens: isComplexQuery ? 160 : 80, // Plus court pour éviter les réponses AI-like
       temperature: 0.9, // Plus élevé pour plus d'humanité
       top_p: 0.95,
       frequency_penalty: 0.3, // Évite les formules répétitives d'AI
