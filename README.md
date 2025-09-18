@@ -30,7 +30,7 @@ server.js        # Optional Express bootstrap for local usage
 2. Create a `.env` file:
    ```env
    GROQ_API_KEY=your_groq_api_key
-   GROQ_MODEL=llama3-70b-8192        # optional override
+   GROQ_MODEL=llama-3.1-70b-versatile        # optional override
    GROQ_TIMEOUT_MS=12000             # optional timeout override
    MAX_MESSAGE_LENGTH=600            # optional guardrail
    ```
@@ -87,3 +87,4 @@ The RAG store at `src/data/knowledge-base.js` captures Khalid's education, flags
 - `npm start` – run through Vercel dev when available.
 
 Gratsi mille et bon build !
+
