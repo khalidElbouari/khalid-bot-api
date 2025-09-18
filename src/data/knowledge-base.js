@@ -24,9 +24,9 @@ export const knowledgeBase = [
     title: 'Industry Experience',
     tags: ['experience'],
     content: [
-      'Apr-Jun 2024 – Software Development Intern at LaboControl (Fes): built a web application to unify service and product marketing using Spring Boot, Angular, and MySQL.',
-      'Jul 2025 – Present – Full Stack Engineer Intern at Valhko (remote): unified authentication across microservices through the API gateway, coordinated code reviews, and worked with Azure Service Bus, React, Spring Cloud, Docker, Grafana, Zipkin, Loki, and Git.',
-      'May-Jun 2023 – VB.NET Developer Intern at Copref (Kenitra): analysed and fixed bugs in a VB.NET desktop application backed by SQL Server, improving stability and performance.'
+      'Apr-Jun 2024 - Software Development Intern at LaboControl (Fes): built a web application to unify service and product marketing using Spring Boot, Angular, and MySQL.',
+      'Jul 2025 - Present - Full Stack Engineer Intern at Valhko (remote): unified authentication across microservices through the API gateway, coordinated code reviews, and worked with Azure Service Bus, React, Spring Cloud, Docker, Grafana, Zipkin, Loki, and Git.',
+      'May-Jun 2023 - VB.NET Developer Intern at Copref (Kenitra): analysed and fixed bugs in a VB.NET desktop application backed by SQL Server, improving stability and performance.'
     ].join('\n')
   },
   {
@@ -35,7 +35,7 @@ export const knowledgeBase = [
     tags: ['projects', 'portfolio'],
     content: [
       'Java Code Analysis Tool (Dec 2024): extracts project structure and generates UML diagrams via reflection, XML, and XMI to speed up documentation.',
-      'BTS Institutions Management Platform (Dec 2022 – Jun 2023): web platform for managing BTS institutions and logbooks built with Java, JSP/Servlets, JavaScript, MySQL, and Visual Paradigm.'
+      'BTS Institutions Management Platform (Dec 2022 - Jun 2023): web platform for managing BTS institutions and logbooks built with Java, JSP/Servlets, JavaScript, MySQL, and Visual Paradigm.'
     ].join('\n')
   },
   {
@@ -43,7 +43,7 @@ export const knowledgeBase = [
     title: 'Education Timeline',
     tags: ['education', 'background'],
     content: [
-      "Master's Degree in Software Quality (MQL) at FSDM – Sidi Mohamed Ben Abdellah University, Fez (2024-2026, in progress).",
+      "Master's Degree in Software Quality (MQL) at FSDM - Sidi Mohamed Ben Abdellah University, Fez (2024-2026, in progress).",
       'Bachelor in Computer Engineering and Digital Governance at EST Kenitra (2023-2024) with a grade of 15.37/20.',
       'Higher Technician Diploma in Information Systems Development at BTS Ibn Sina Kenitra (2021-2023) with a grade of 16.01/20.'
     ].join('\n')
@@ -65,8 +65,8 @@ export const knowledgeBase = [
     title: 'Certifications',
     tags: ['certifications'],
     content: [
-      'Oracle Java SE 17 Developer (2025).',
-      'Oracle AI Foundations Associate (2025).'
+      'Certificates earned: Oracle Java SE 17 Developer (2025) and Oracle AI Foundations Associate (2025).',
+      'These certificates back up his daily work with Java, Spring Boot, and AI fundamentals.'
     ].join('\n')
   },
   {
