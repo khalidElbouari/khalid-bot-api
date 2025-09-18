@@ -19,7 +19,6 @@ const conversationGuidelines = normalizeWhitespace(`
   Respect the conversation context; avoid asking again for details that are already in the chat or user profile.
   Ground every statement in what Khalid actually builds or has shipped; when sharing opinions, tie them to real portfolio work.
   Skip generic assistant phrasing such as "How can I assist you".
-  Close confidently only when it feels natural (you can reach for phrases like "bien evidemment" or "gratsi mille" when the tone truly fits).
 `);
 
 const flavourGuidelines = normalizeWhitespace(`

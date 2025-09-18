@@ -1,11 +1,12 @@
 export const chatConfig = {
   endpoint: 'https://api.groq.com/openai/v1/chat/completions',
   defaultModel: process.env.GROQ_MODEL ?? 'llama-3.3-70b-versatile',
-  shortReplyTokens: 96,
-  longReplyTokens: 220,
+  shortReplyTokens: 260,
+  longReplyTokens: 640,
   temperature: 0.85,
   topP: 0.95,
   frequencyPenalty: 0.2,
   presencePenalty: 0.15,
   requestTimeoutMs: Number(process.env.GROQ_TIMEOUT_MS ?? 12000)
 };
+
